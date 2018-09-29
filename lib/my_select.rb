@@ -5,5 +5,5 @@ def my_select(collection)
     newArray.push yield(collection[i])
     i += 1 
   end
-  newArray
+  newArray.compact
 end
